@@ -4,8 +4,10 @@
   "description": "Subscription Management System-Backend",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server.ts",
-    "lint": "eslint . --ext .ts"
+    "dev": "nodemon src/server.ts",
+    "lint": "eslint . --ext .ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "ali ahad",
